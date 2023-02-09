@@ -9,6 +9,9 @@ import Backdrop from "../Backdrop/Backdrop";
 
 const LandingPage = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
+  // const [location, setLocation] = useState({
+    
+  // })
 
   const drawerToggleClickHandler = () => {
     setSideDrawerOpen(!sideDrawerOpen);
