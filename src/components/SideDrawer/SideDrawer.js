@@ -2,8 +2,13 @@ import React from "react";
 import "./SideDrawer.css";
 
 const sideDrawer = (props) => {
+  let drawerClass = " side-drawer";
+  if (props.show) {
+    drawerClass = "side-drawer open"
+  }
+
   return (
-    <nav className="side-drawer">
+    <nav className={drawerClass} >
       <ul>
         <li>
           <a href="/">Blog</a>
